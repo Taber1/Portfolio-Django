@@ -5,4 +5,4 @@ from .models import Portfolio
 
 def PortfolioItems(request):
     portfolio_items = Portfolio.objects.all()
-    return  render(request,'PortfolioDjango/index.html', {'portfolio_items':portfolio_items})
+    return  render(request,'PortfolioDjango/index.html',portfolio_items)
