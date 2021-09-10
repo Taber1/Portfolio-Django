@@ -168,7 +168,7 @@ AWS_S3_REGION_NAME = 'ap-south-1'
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = os.environ.get('AWS_DEFAULT_ACL')
 AWS_S3_VERIFY = True
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3Boto3Storage'
+# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 
 # STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
